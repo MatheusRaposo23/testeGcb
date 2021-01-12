@@ -41,6 +41,7 @@ const Home = () => {
             const response:cepResponse = await axios.get(`https://viacep.com.br/ws/${cep}/json/`);
 
             console.log(response.data)
+            console.log(nomeCookie, dataNasCookie, ufCookie, enderecoCookie, bairroCookie, cidadeCookie, cpfCookie, cepCookie)
             setCep(cep);
             setEndereco(response.data.logradouro);
             setBairro(response.data.bairro);

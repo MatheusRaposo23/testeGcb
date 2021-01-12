@@ -1,10 +1,4 @@
-import { InputHTMLAttributes } from 'react';
 import styled from 'styled-components';
-
-import image from '../../assets/Illustration.svg';
-import image3 from '../../assets/bloco_services.svg';
-import image5 from '../../assets/bloco_final_image.svg';
-
 
 export const Container = styled.div`
   display:flex;

@@ -1,6 +1,5 @@
 import React, { InputHTMLAttributes } from 'react';
 
-import { FiSearch } from 'react-icons/fi';
 import { IconBaseProps } from 'react-icons/lib';
 import { Container } from './styles';
 
