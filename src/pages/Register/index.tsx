@@ -48,7 +48,7 @@ const Home = () => {
             setCidade(response.data.localidade);
             setUf(response.data.uf);
         },
-        [],
+        [nomeCookie, dataNasCookie, ufCookie,enderecoCookie,  bairroCookie,cidadeCookie, cpfCookie , cepCookie]
     );
 
     const handleSignUp = useCallback(
